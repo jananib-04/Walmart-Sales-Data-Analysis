@@ -1,4 +1,4 @@
-## 📊 Walmart Sales Data Analysis — SQL Project
+📊 Walmart Sales Data Analysis — SQL Project
 
 This project analyzes Walmart sales data using SQL to uncover business insights such as customer behavior, sales performance, branch efficiency, and product profitability.
 The analysis is performed using MySQL, and all queries are structured for clarity, accuracy, and real-world business use.
