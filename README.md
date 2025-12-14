@@ -6,6 +6,7 @@ The analysis is performed using MySQL, and all queries are structured for clarit
 ## 🎯 Project Objectives
 
 The goal of this project is to answer key business questions such as:
+
 Which payment methods are most preferred by customers?
 
 What categories generate the highest profit?
