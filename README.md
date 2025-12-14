@@ -1,9 +1,9 @@
-📊 Walmart Sales Data Analysis — SQL Project
+##  Walmart Sales Data Analysis — SQL Project
 
 This project analyzes Walmart sales data using SQL to uncover business insights such as customer behavior, sales performance, branch efficiency, and product profitability.
 The analysis is performed using MySQL, and all queries are structured for clarity, accuracy, and real-world business use.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 The goal of this project is to answer key business questions such as:
 
@@ -21,7 +21,7 @@ What is the busiest day for each branch?
 
 How does sales performance vary across branches and cities?
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 MySQL 8+
 
@@ -31,7 +31,7 @@ Join, Aggregation, CTEs
 
 CSV Data Processing
 
-## 📈 Business Insights Generated
+##  Business Insights Generated
 
 This project provides insights such as:
 
