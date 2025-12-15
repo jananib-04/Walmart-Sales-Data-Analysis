@@ -10,7 +10,7 @@ The project contains:
 
 ### Data Preparation
 
-Data cleaning and preprocessing were performed in the [Exploratory Data Analysis (EDA) Notebook](eda.ipynb) notebook. Steps included:
+Data cleaning and preprocessing were performed in the [eda.ipynb](eda.ipynb). Steps included:
 
 - Removing inconsistent spacing and non-printable characters
 - Parsing date and time values
@@ -20,7 +20,7 @@ Data cleaning and preprocessing were performed in the [Exploratory Data Analysis
 
 ### SQL Analysis
 
-All SQL queries used in the analysis are provided in the [SQL Queries File](Queries.sql) file.
+All SQL queries used in the analysis are provided in the [Queries.sql](Queries.sql) 
 The analytical objectives include:
 - Sales performance by payment method
 - Top-selling category in each branch
