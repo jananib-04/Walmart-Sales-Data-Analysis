@@ -8,15 +8,17 @@ The project contains:
 - SQL-based analytical queries
 - A business insights report summarizing findings
 
-### Data Preparation
+### 🧹 Data Preparation
 
-Data cleaning and preprocessing were performed in the [eda.ipynb](eda.ipynb). Steps included:
-
-- Removing inconsistent spacing and non-printable characters
-- Parsing date and time values
-- Ensuring correct data types
-- Validating numerical fields
-- Preparing the dataset for SQL analysis
+Data cleaning and preprocessing were performed in the [eda.ipynb](eda.ipynb) 
+Key steps included:
+- Loading the raw Walmart sales CSV using pandas
+- Inspecting dataset structure (shape, head(), info())
+- Removing duplicate records using drop_duplicates()
+- Handling missing values by dropping rows with null entries (dropna())
+- Validating column data types before loading into MySQL
+- Connecting to MySQL using SQLAlchemy + PyMySQL
+- Exporting the cleaned dataset for SQL analysis (walmart_cleaned_data.csv)
 
 ### SQL Analysis
 
