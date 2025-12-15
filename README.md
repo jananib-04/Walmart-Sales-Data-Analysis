@@ -1,48 +1,50 @@
-##  Walmart Sales Data Analysis — SQL Project
+## 📊Walmart Sales Analysis
+Overview
 
-This project analyzes Walmart sales data using SQL to uncover business insights such as customer behavior, sales performance, branch efficiency, and product profitability.
-The analysis is performed using MySQL, and all queries are structured for clarity, accuracy, and real-world business use.
+This project analyzes Walmart sales data to identify key business insights using MySQL and Python. The analysis focuses on sales performance, customer behavior, profitability, and operational patterns across different branches and cities.
 
-##  Project Objectives
+The project contains:
+- Data cleaning and exploration (Python)
+- SQL-based analytical queries
+- A business insights report summarizing findings
 
-The goal of this project is to answer key business questions such as:
+### Data Preparation
 
-Which payment methods are most preferred by customers?
+Data cleaning and preprocessing were performed in the eda.ipynb notebook. Steps included:
 
-What categories generate the highest profit?
+- Removing inconsistent spacing and non-printable characters
+- Parsing date and time values
+- Ensuring correct data types
+- Validating numerical fields
+- Preparing the dataset for SQL analysis
 
-Which branches are most efficient?
+### SQL Analysis
 
-What time of day has the highest customer traffic?
+All SQL queries used in the analysis are provided in the Queries.sql file.
+The analytical objectives include:
+- Sales performance by payment method
+- Top-selling category in each branch
+- Busiest day of the week by branch
+- Category ratings by city
+- Total profit by product category
+- Most frequently used payment method per branch
+- Customer traffic analysis by time of day
+- Revenue decline analysis (2022 vs. 2023)
 
-Which categories receive the highest ratings?
+### 📈Business Insights
 
-What is the busiest day for each branch?
+A detailed summary of insights derived from the SQL analysis is available in Walmart_Business_Insights.pdf
 
-How does sales performance vary across branches and cities?
+### 🛠️Tools and Technologies
 
-##  Tools & Technologies
+- MySQL
+- Python (Pandas)
+- Jupyter Notebook
 
-MySQL 8+
+### How to Use
 
-SQL Window Functions
+- Clone the repository.
+- Load the dataset into MySQL or explore using the EDA notebook.
+- Run the SQL queries from queries.sql.
+- Refer to the PDF report for business insights.
 
-Join, Aggregation, CTEs
-
-CSV Data Processing
-
-##  Business Insights Generated
-
-This project provides insights such as:
-
-Customer preferences for payment types
-
-Peak operating hours and staffing needs
-
-High-profit product categories
-
-Branch sales performance comparison
-
-Customer satisfaction metrics by category and city
-
-Inventory demand patterns
