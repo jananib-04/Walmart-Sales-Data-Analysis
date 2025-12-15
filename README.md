@@ -1,5 +1,5 @@
 ## 📊Walmart Sales Analysis
-Overview
+### Overview
 
 This project analyzes Walmart sales data to identify key business insights using MySQL and Python. The analysis focuses on sales performance, customer behavior, profitability, and operational patterns across different branches and cities.
 
@@ -13,18 +13,16 @@ The project contains:
 **Key steps included:**
 
 - Loading the raw Walmart sales CSV using pandas
-- Inspecting dataset structure (`shape`, `head()`, `info()`, `describe()`)  
+- Inspecting dataset structure `shape`, `head()`, `info()`
 - Removing duplicate records using `drop_duplicates()`  
 - Handling missing values using `dropna()`  
-- Cleaning spacing and non-printable characters  
 - Validating column data types before loading into MySQL  
 - Connecting to MySQL using SQLAlchemy + PyMySQL  
-- Exporting the cleaned dataset (`walmart_cleaned_data.csv`)  
-
 
 ### SQL Analysis
 
 All SQL queries used in the analysis are provided in the [Queries.sql](Queries.sql) 
+
 **The analytical objectives include:**
 
 - Sales performance by payment method
@@ -36,10 +34,9 @@ All SQL queries used in the analysis are provided in the [Queries.sql](Queries.s
 - Customer traffic analysis by time of day
 - Revenue decline analysis (2022 vs. 2023)
 
-### 📈Business Insights
 
-A detailed summary of insights derived from the SQL analysis is available in [Walmart Business Insights Report](Walmart%20Business%20Insights.pdf)
-
+📄 **Business Insights Report:**  
+[Walmart Business Insights Report](Walmart%20Business%20Insights.pdf)
 
 
 ### 🛠️Tools and Technologies
