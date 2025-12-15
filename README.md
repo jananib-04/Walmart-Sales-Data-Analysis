@@ -33,7 +33,8 @@ The analytical objectives include:
 
 ### 📈Business Insights
 
-A detailed summary of insights derived from the SQL analysis is available in [Walmart Business Insights Report](Walmart Business Insights.pdf)
+A detailed summary of insights derived from the SQL analysis is available in [Walmart Business Insights Report](Walmart%20Business%20Insights.pdf)
+
 
 
 ### 🛠️Tools and Technologies
