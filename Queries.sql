@@ -1,3 +1,6 @@
+-- Walmart Sales Analysis SQL Queries
+-- Database: MySQL 8+
+
 USE walmart_db;
 SHOW TABLES;
 
@@ -22,10 +25,10 @@ FROM (
 SELECT branch,
        category,
        SUM(quantity) AS tot_quantity,
-       ROW_NUMBER() OVER(PARTITION BY branch ORDER BY SUM(quantity) DESC) as rn
+       ROW_NUMBER() OVER(PARTITION BY branch ORDER BY SUM(quantity) DESC) AS rn
    FROM walmart
    GROUP BY branch, category
-) as rk
+) AS rk
 WHERE rn = 1;
 
 -- identify the busiest day for each branch based on the number of transaction
