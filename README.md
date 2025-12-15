@@ -8,22 +8,25 @@ The project contains:
 - SQL-based analytical queries
 - A business insights report summarizing findings
 
-### 🧹 Data Preparation
+### 🧹 Data Preparation  
+ Data cleaning and preprocessing were performed in the **[eda.ipynb](eda.ipynb)** notebook.  
+**Key steps included:**
 
-Data cleaning and preprocessing were performed in the [eda.ipynb](eda.ipynb) 
-Key steps included:
 - Loading the raw Walmart sales CSV using pandas
-- Inspecting dataset structure (shape, head(), info())
-- Removing duplicate records using drop_duplicates()
-- Handling missing values by dropping rows with null entries (dropna())
-- Validating column data types before loading into MySQL
-- Connecting to MySQL using SQLAlchemy + PyMySQL
-- Exporting the cleaned dataset for SQL analysis (walmart_cleaned_data.csv)
+- Inspecting dataset structure (`shape`, `head()`, `info()`, `describe()`)  
+- Removing duplicate records using `drop_duplicates()`  
+- Handling missing values using `dropna()`  
+- Cleaning spacing and non-printable characters  
+- Validating column data types before loading into MySQL  
+- Connecting to MySQL using SQLAlchemy + PyMySQL  
+- Exporting the cleaned dataset (`walmart_cleaned_data.csv`)  
+
 
 ### SQL Analysis
 
 All SQL queries used in the analysis are provided in the [Queries.sql](Queries.sql) 
-The analytical objectives include:
+**The analytical objectives include:**
+
 - Sales performance by payment method
 - Top-selling category in each branch
 - Busiest day of the week by branch
