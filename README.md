@@ -1,12 +1,12 @@
 ## 📊 Walmart Sales Analysis
-### 📌 Overview
+### Overview
 
 This project was built to practice and demonstrate end-to-end data analysis using real-world retail sales data.
 The goal is to extract actionable business insights related to sales performance, customer behavior, and operational trends across Walmart branches and cities.
 
 The analysis combines Python (EDA) and MySQL (analytical queries) to simulate a real analytics workflow.
 
-### 📂 Project Components
+### Project Components
 
 - Data cleaning & exploratory analysis using Python
 - Business-focused SQL queries
