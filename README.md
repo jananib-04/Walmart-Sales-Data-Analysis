@@ -42,7 +42,7 @@ Business questions addressed:
 
 ### 📄 Business Insights Report:
 
-👉 **[Walmart Business Insights Report](Walmart%20Business%20Insights.pdf)**
+ **[Walmart Business Insights Report](Walmart%20Business%20Insights.pdf)**
 
 ### 🛠 Tools & Technologies
 
